@@ -1,0 +1,29 @@
+body {
+    font-family: 'Comic Sans MS', Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.87);
+    margin: 0;
+    display: flex;
+    place-items: center;
+    min-width: 320px;
+    min-height: 100vh;
+    background-attachment: fixed;
+    background-color: hsl(200, 80%, 20%);
+    background-image: url(/bg.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#app {
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    background-color: hsl(200, 60%, 16%);
+    border-radius: 5px;
+    display: flex;
+}
+
+#app canvas {
+    border-radius: 4px;
+}
